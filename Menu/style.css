@@ -1,0 +1,56 @@
+h3{
+	text-align: center;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+
+p{
+	margin-top: 5px
+}
+
+#main-menu{
+	margin: 0 auto;
+	width: 400px;
+	height: auto;
+}
+
+ul{
+	text-align: center;
+	display: inline-block;
+}
+
+li {
+	height: 25px;
+    width: 150px;
+    text-align: center;
+    display: block;
+    border: 1px solid;
+    padding:5px 2px 2px 2px;
+}
+
+.category{
+	background: #61656a;
+	color: white;
+	background: url(img/birne-white.png) no-repeat left 5px center #61656a ;
+}
+
+.subcategories{
+	background: #f5f5f5;
+	color: #62656a;
+	font-weight: bold;
+	border-bottom: none;
+}
+#subcategories-menu{
+	margin-left: -4px;
+	padding-left: 0;
+	position: absolute;
+	margin-top: 15px;
+	padding-top: 70px;
+}
+
+#border-subcategories{
+	border-bottom: 1px solid;
+}
+#brine{
+	background: url(img/birne-yellow.png) no-repeat left 5px center #61656a !important;
+}
